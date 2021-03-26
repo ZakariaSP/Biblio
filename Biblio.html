@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجلة المنار</title>
+
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+rel="stylesheet"
+/>
+ 
+<link rel="icon" href="ikon.jpg" />
+
+<style>
+  .dropdown-item:hover{
+    background: #1DE9B6 !important;
+  }
+
+  .form-control{
+    background: white ;
+     color: black  !important ;
+     border: none;
+    
+  }
+
+  .form-control:focus{
+    background: white !important;
+    outline: none !important;
+  }
+   
+  
+    
+</style>
+</head>
+<body>
+
+    <header>
+        <!-- Intro settings -->
+        <style>
+          /* Default height for small devices */
+          #intro-example {
+            height: 400px;
+          }
+      
+          /* Height for devices larger than 992px */
+          @media (min-width: 992px) {
+            #intro-example {
+              height: 600px;
+            }
+          }
+        </style>
+      
+      <nav style="direction: rtl !important; background: #004D40;" class="navbar navbar-expand-lg navbar-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="iqon.jpg" alt="Logo" style="width:60px; height: 50px; margin-right: -4px;">
+          </a>
+          <!-- Navbar brand -->
+         <a style="font-size: 24px !important; color: #1DE9B6 !important;" class="navbar-brand font-italic font-weight-bold text-warning" href="#">مجلة المنار</a>
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarCenteredExample"
+            aria-controls="navbarCenteredExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          
+            <i class="fas fa-bars"></i>
+          </button>
+      
+          <!-- Collapsible wrapper -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarCenteredExample"
+          >
+            <!-- Left links -->
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active font-italic text-light font-weight-bold" aria-current="page" href="#">الصفحة الرئيسية</a>
+              </li>
+              
+              <!-- Navbar dropdown -->
+              <li class="nav-item dropdown" style="margin-right: 40px;">
+                <a
+                  class="nav-link dropdown-toggle text-light font-italic font-weight-bold"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                  
+                >
+                  المكونات
+                </a>
+                <!-- Dropdown menu -->
+                <ul class="dropdown-menu bg-warning" aria-labelledby="navbarDropdown" style="background: #004D40 !important;">
+                  <li><a class="dropdown-item font-italic text-light font-weight-bold" href="#" >الكتب والمجلات</a></li>
+                  <li><a class="dropdown-item font-italic text-light font-weight-bold" href="#">المقالات العلمية والتقنية</a></li>
+                  <li><a class="dropdown-item font-italic text-light font-weight-bold" href="#">الأخبار الحصرية</a></li>
+                </ul>
+                <li class="nav-item" style="margin-right: 40px">
+                  <a class="nav-link  font-italic text-light font-weight-bold" href="#">مزيد من المعلومات</a>
+                </li>
+            </ul>
+            <!-- Left links -->
+             <!-- Search form -->
+      <form class="d-flex input-group w-auto" style="margin-right: 200px;" >
+        <input
+          type="search"
+          class="form-control font-weight-bolder font-italic"
+          placeholder="ابحث"
+          aria-label="Search"
+          style="border-radius: 8px;"
+        />
+        <button
+          class="btn  btn-warning text-white font-italic font-weight-bold"
+          type="button"
+          data-mdb-ripple-color="dark"
+          style="border-radius: 8px; background: #1DE9B6 !important; margin-right: 6px !important;"
+        >
+          بحث
+        </button>
+      </form>
+      
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+        
+          
+        
+        <!-- Container wrapper -->
+      </nav>
+      
+        <!-- Background image -->
+        <div
+          id="intro-example"
+          class="p-5 text-center bg-image"
+          style="background-image: url('zero.jpg');"
+        >
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.5) !important;">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3 font-italic font-weight-bolder">مجلة المنار الإلكترونية للعلم والمعرفة</h1>
+                <h5 class="mb-4 font-italic">كتب ومجلات، مقالات علمية وتقنية، أخبار حصرية</h5>
+                <a
+                  class="btn btn-warning btn-lg m-2 font-weight-bold font-italic"
+                  href=""
+                  role="button"
+                  rel="nofollow"
+                  style="background: #1DE9B6;"
+                  >تسجيل الدخول</a
+                >
+                <a
+                  class="btn btn-warning btn-lg m-2 font-weight-bold font-italic"
+                  href=""
+                  style="background: #1DE9B6;"
+                  role="button"
+                  >إنشاء حساب</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Background image -->
+      </header> 
+      <!-- Carousel wrapper -->
+
+<!--Cards-->
+<!-- Carousel wrapper -->
+<div
+  id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center  pb-5"
+  data-mdb-ride="carousel"
+  style="background: #f1f3f7;"
+>
+  <!-- Controls -->
+  <div class="d-flex justify-content-center mb-4 pt-5">
+    <button
+      class="carousel-control-prev position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="math.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold font-italic" style="color: #1DE9B6 !important; font-size: 24px;">الرياضيات</h5>
+                <p class="card-text font-weight-bold">
+                  هي مجموعة من المعارف المجردة الناتجة عن الاستنتاجات المنطقية المطبقة على مختلف الكائنات الرياضية مثل المجموعات، والأعداد، والأشكال والبنيات والتحويلات. وتهتم الرياضيات أيضًا بدراسة مواضيع مثل الكمية والبنية والفضاء والتغير
+                </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="astro.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold font-italic" style="color: #1DE9B6 !important; font-size: 24px;">الفلك</h5>
+                <p class="card-text font-weight-bold">
+                  هو علم طبيعي يدرس الظواهر الفلكية والأجرام السماوية. يستخدم علم الفلك الرياضيات والفيزياء والكيمياء لشرح أصل وتطور تلك الظواهر والأجرام. تشمل الأجرام المثيرة للاهتمام الكواكب والأقمار والنجوم والسدم والمجرات والمذنبات
+                  يدرس علم الفلك كل ما ينشأ خارج الغلاف الجوي للأرض
+                </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="science.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder font-italic" style="color: #1DE9B6 !important; font-size: 24px;">العلوم الطبيعية</h5>
+                <p class="card-text font-weight-bold">
+                  هي العلوم التي تهتم بدراسة النواحي الفيزيائية الطبيعية المادية غير البشرية لكافة الظواهر الموجودة على الأرض والكون المحيط بنا
+                  يحاول العلم الطبيعي أن يشرح كيفية عمل العالم والظواهر الموجودة فيه عن طريق وضع نظريات لسيرورات طبيعية
+                </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <img
+                src="time.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder font-italic" style="color: #1DE9B6 !important; font-size: 24px;">إدارة الوقت</h5>
+                <p class="card-text font-weight-bold">
+                  هي عملية التخطيط وممارسة السيطرة الواعية على الوقت الذي يقضيه في أنشطة محددة، خاصة لزيادة الفعالية والكفاءة أو الإنتاجية. إنه عمل خفة الحركة للمتطلبات المختلفة للدراسة والحياة الاجتماعية والتوظيف والأسرة والمصالح الشخصية والالتزامات
+                </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="dev.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder font-italic" style="color: #1DE9B6 !important; font-size: 24px;">التنمية الذاتية</h5>
+                <p class="card-text font-weight-bold">
+            عبارة عن المجهود الفردي الشخصي الذي يقوم به الفرد الانسان ،بشكل متكامل للكل القدرات والمهارات واجراء التحسينات المطلوبة لها، وكذلك العمل على تنمية القدرات العقلية، وفرز النقاط الشخصية للإنسان منها التحسين ثقة النفس والمشاعر وردود الأفعال البشرية تجاه المواقف الحياتية
+                </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="news.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder font-italic" style="color: #1DE9B6 !important; font-size: 24px;">أخبار اقتصادية</h5>
+                <p class="card-text font-weight-bold">
+                  أخبار الاقتصاد والأعمال العربية والعالمية، وأسواق المال والبورصة، وأسعار العملات العربية والعالمية، إضافة إلى تقارير وتحليلات شاملة حول إدارة الأموال والاستثمار
+                  وتوقعات سعر الدولار، مقالات تحليلية، اقتصادية، يومية وأسبوعية لمتابعة الشأن الاقتصادي العربي والعالمي الآن
+                </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="card">
+              <img
+                src="Web.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder font-italic" style="color: #1DE9B6 !important; font-size: 24px;">تقنية الويب</h5>
+                <p class="card-text font-weight-bold">
+                  الجيل الثاني من مواقع وخدمات الانترنت والتي عملت على تحويل الانترنت الى منصة تشغيل للعمل بدلا من كونها مواقع فقط وتعتمد في تكوينها على الشبكات الاجتماعية ومن مكوناتها المدونات والويكي اليوتيوب وهي الصفحات التي يستطيع زائر الموقع التعديل عليها وتسمح للمستخدمين التفاعل فيما بينهم 
+                </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="AI.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder font-italic" style="color: #1DE9B6 !important; font-size: 24px;">الذكاء الاصطناعي</h5>
+                <p class="card-text font-weight-bold">
+                هو مجموع الأنظمة أو الأجهزة التي تحاكي الذكاء البشري لأداء المهام والتي يمكنها أن تحسن من نفسها استنادًا إلى المعلومات التي تجمعها. يتجلى الذكاء الاصطناعي في عدد من الأشكال  
+                ويتعلق بالقدرة على التفكير الفائق وتحليل البيانات أكثر من تعلقه بشكل معين أو وظيفة معينة  
+              </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="MBA.jpg"
+                class="card-img-top"
+                style="height:200px ;"
+              />
+              <div class="card-body">
+                <h5 class="card-title font-weight-bolder font-italic" style="color: #1DE9B6 !important; font-size: 24px;">إدارة الأعمال</h5>
+                <p class="card-text font-weight-bold">
+                  هو مصطلح مواز لأداء أو إدارة عمليات الأعمال التجارية، والتي ربما تشتمل على صناعة القرارات الهامة. وبالتالي فمن المرجح أن تشتمل على الكفاءة التنظيمية للعاملين وغيرهم من الموارد بحيث يتم توجيه الأنشطة نحو تحقيق الأهداف والغايات المشتركة
+                </p>
+                <a href="#!" class="btn font-italic font-weight-bolder" style="background: #1DE9B6; font-size: 16px !important;">متابعة</a>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+  
+  
+  
+   <!--Cards--> 
+   <!-- Carousel wrapper -->
+<div
+id="carouselBasicExample"
+class="carousel slide carousel-fade"
+data-mdb-ride="carousel"
+style="background: #f1f3f7;" 
+
+>
+<!-- Indicators -->
+<div class="carousel-indicators">
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="0"
+    class="active"
+    aria-current="true"
+    aria-label="Slide 1"
+  ></button>
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="1"
+    aria-label="Slide 2"
+  ></button>
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="2"
+    aria-label="Slide 3"
+  ></button>
+</div>
+
+<!-- Inner -->
+<div class="carousel-inner" style="max-width: 1400px  !important; max-height: 1000px !important;">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <img
+      src="first.jpg"
+      class="d-block w-100"
+      style="height: 650px !important;"
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h5 style="font-size: 24px !important;" class="font-weight-bolder font-italic">كتب ومجلات</h5>
+      <p class="font-italic font-weight-bold">  كتب التنمية الذاتية والعلوم الحياتية وعلوم الفلك وعلوم الإجتماع والإقتصاد والفلسفة</p>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <img
+      src="tecno.jpg"
+      class="d-block w-100"
+      style="height: 650px !important;"
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h5 style="font-size: 24px !important;" class="font-weight-bolder font-italic">مقالات علمية وتقنية</h5>
+      <p class="font-italic font-weight-bold">المعلوميات والتكنولوجيات الحديثة وعلوم الطبيعة والرياضيات والفيزياء والفلك </p>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <img
+      src="third.jpg"
+      class="d-block w-100"
+      style="height: 650px !important;"
+    />
+    <div class="carousel-caption d-none d-md-block">
+      <h5 style="font-size: 24px !important;" class="font-weight-bolder font-italic">أخبار حصرية</h5>
+      <p class="font-italic font-weight-bold">أخبار عالمية في ميادين العلم والتقنية والإقتصاد وإدارة الأعمال</p>
+    </div>
+  </div>
+</div>
+<!-- Inner -->
+
+<!-- Controls -->
+<button
+  class="carousel-control-prev"
+  type="button"
+  data-mdb-target="#carouselDarkVariant"
+  data-mdb-slide="prev"
+>
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button
+  class="carousel-control-next"
+  type="button"
+  data-mdb-target="#carouselDarkVariant"
+  data-mdb-slide="next"
+>
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+<!-- Carousel wrapper -->
+      <footer dir="rtl" class="text-white text-center text-lg-start" style="background: #00796B;">
+          <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4 d-flex align-items-center justify-content-center">
+      <!-- Facebook -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+        <!-- Grid container -->
+        <div class="container p-4 ">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0 mt-5">
+              <h5 class="text-uppercase font-italic font-weight-bolder" style=" margin-bottom: 20px; color: #1DE9B6; text-align: center; font-size: 20px !important;">تقديم حول مجلتنا </h5>
+              <hr style="color: #00241e; height: 4px;" />
+              <h5 class="text-uppercase font-italic" style="color: #1DE9B6; text-align: center; font-size: 20px !important;">مجلة المنار</h5>
+               <hr style="color: #00241e; height: 4px;" />
+              <p class="font-italic font-weight-bold" style="text-align: center;">
+               مجلة تعنى بالمحتوى العلمي والتقني والمعرفي
+               تقدم كتب، مجلات، مقالات، وأخبار حصرية لمواضيع  متنوعة
+                لنشر المعلومات وإثراء الجانب المعرفي 
+                لدى القراء زوار منصتنا نرحب بكم جميعا  
+               
+              </p>
+              <hr style="color: #00241e; height: 4px;" />
+              
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0 mt-5">
+              <h5 class="text-uppercase font-italic font-weight-bolder" style="color: #1DE9B6; text-align: center; font-size: 20px !important;">للاشتراك في منصتنا مجانا</h5>
+              <form >
+                <!-- Name input -->
+                <!--<div class="form-outline mb-4">
+                  <input type="text" id="form4Example1" class="form-control" style="background: #80CBC4;" />
+                  <label class="form-label font-italic font-weight-bold" for="form4Example1" style="color:#00695C;">الإسم</label>
+                </div>-->
+                <div class="mb-3 mt-3">
+                  <!--<label for="exampleFormControlInput1" class="form-label text-light font-italic font-weight-bold">الإسم</label>--> 
+                  <input type="email" class="form-control font-italic font-weight-bold" placeholder="الإسم" id="exampleFormControlInput1">
+                </div>
+              
+                <!-- Email input -->
+                <!--<div class="form-outline mb-4">
+                  <input type="email" id="form4Example2" class="form-control" style="background: #80CBC4;" />
+                  <label class="form-label font-italic font-weight-bold" for="form4Example2" style="color:#00695C;">البريد الإلكتروني</label>
+                </div>-->
+                <div class="mb-3">
+                  <!--<label for="exampleFormControlInput1" class="form-label text-light font-italic font-weight-bold">البريد الإلكتروني</label>-->
+                  <input type="email" class="form-control font-italic font-weight-bold" placeholder="البريد الإلكتروني" id="exampleFormControlInput1">
+                </div>
+              
+                <!-- Message input -->
+                <div class="mb-3">
+                  <!--<label for="exampleFormControlTextarea1" class="form-label text-light font-italic font-weight-bold">اكتب رسالتك</label>-->
+                  <textarea class="form-control font-italic font-weight-bold" id="exampleFormControlTextarea1" placeholder="اكتب رسالتك" rows="3"></textarea>
+                </div>
+                <!--
+                  <div class="form-outline mb-4">
+                
+                 <textarea class="form-control" id="form4Example3" rows="4" style="background: #80CBC4;"></textarea>
+                  <label class="form-label font-italic font-weight-bold" for="form4Example3" style="color:#00695C;">اكتب رسالتك</label>
+                </div> 
+                -->
+                
+              
+              
+                <!-- Checkbox -->
+                <!--<div class="form-check d-flex justify-content-center mb-4">
+                  <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="form4Example4"
+                    checked
+                  />
+                  <label class="form-check-label" for="form4Example4">
+                    إرسال البيانات 
+                  </label>
+                </div>-->
+              
+                <!-- Submit button -->
+                <button type="submit" style="font-size: 18px; background: #1DE9B6;" class="btn btn-warning btn-block mb-4 font-italic  font-weight-bolder"> إرسال المعلومات</button>
+              </form>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase font-italic font-weight-bolder mt-5" style="color: #1DE9B6; text-align: center; font-size: 20px !important;">للاطلاع على موقعنا على الخريطة</h5>
+              <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1706.5467402701897!2d29.888789548999945!3d31.190421312973253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c328769a6f01%3A0xe9d92926dfc671f5!2z2YXZg9iq2KjYqSDYp9mE2YPYqtix2YjZhtmK2Kk!5e0!3m2!1sen!2s!4v1616024093636!5m2!1sen!2s" width="340" height="260" class="mt-1" style="border:4px solid #004D40;" allowfullscreen="" loading="lazy"></iframe>
+                <!--<iframe
+                style="height: 260px; width: 340px;"
+                class="shadow-1-strong rounded mt-5"
+                src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>-->
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <!-- Grid container -->
+  <div class="container p-4 mt-3 mb-3">
+    <!-- Section: Images -->
+    <section class="">
+      <div class="row">
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="pict-0.jpg"
+              class="w-100"
+              style="height: 140px; width: 140px;"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="pict-1.jpg"
+              class="w-100"
+              style="height: 140px; width: 140px;"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="pict-2.jpg"
+              class="w-100"
+              style="height: 140px; width: 140px;"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="pict-3.jpg"
+              class="w-100"
+              style="height: 140px; width: 140px;"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="pict-4.jpg"
+              class="w-100"
+              style="height: 140px; width: 140px;"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <div
+            class="bg-image hover-overlay ripple shadow-1-strong rounded"
+            data-ripple-color="light"
+          >
+            <img
+              src="pict-5.jpg"
+              class="w-100"
+              style="height: 140px; width: 140px;"
+            />
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.2);"
+              ></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Images -->
+  </div>
+  <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3 text-light font-italic font-weight-bolder" style="color: #1DE9B6 !important; font-size: 18px; background: #004D40;">
+          كافة الحقوق محفوظة © 2021
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+<!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+></script>    
+
+</body>
+</html>
